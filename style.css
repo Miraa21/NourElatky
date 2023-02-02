@@ -179,7 +179,7 @@ margin-bottom: 20px;
 }
 .ps-text{
     text-align: justify;
-    width: 1300px;
+    width: 100%;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
@@ -191,7 +191,7 @@ margin-bottom: 20px;
 
 }
 .intm-text, .brimp-text{
-    width: 1300px;
+    width: 100%;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
@@ -210,10 +210,8 @@ margin-bottom: 20px;
 
 }
 #features{
-    text-align: center;
-    align-items: center;
-    padding: 20px 20px 20px 340px;
-    justify-content: center;
+    position:relative;
+    
 }
 .feature{
     text-align: center;
