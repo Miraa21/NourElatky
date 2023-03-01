@@ -383,3 +383,23 @@ margin-bottom: 0px;
     padding-right: 15px;
 
   }
+@media (max-width: 600px){
+    .text {
+        text-align:center;
+    }
+    .wardel {
+        height: auto;
+        position: absolute;
+        float: left;
+        top: 320px;
+        width: 90% ;
+        right: 10px;
+    text-align:center; }
+    .main img{
+        height:150px;
+        width:150px;
+        display:flex;
+        order:-1;
+
+    }
+  }
