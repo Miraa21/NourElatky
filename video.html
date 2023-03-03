@@ -49,7 +49,7 @@
         <img class="line" src="assets/images/line.png" alt="">
     </div>
     <div class="video">
-        <video width="70%" height="700" controls autoplay playsinline>
+        <video width="70%" height="700" playsinline loop="true" autoplay="autoplay" controls="controls" muted>
             <source src="Assets/in a nutshell/me.mp4" type="video/mp4">
             <source src="Assets/in a nutshell/me.ogg" type="video/ogg">
             Your browser does not support HTML video.
@@ -57,7 +57,7 @@
     </div>
 </body>
     <script>
-    document.getElementsByClassName('video').play();
+    document.querySelector('video').play();
 </script>
 
 <footer id="footer">
